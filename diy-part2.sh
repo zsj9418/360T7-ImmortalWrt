@@ -13,3 +13,4 @@ sed -i 's/192.168.1.1/192.168.3.60/g' package/base-files/files/bin/config_genera
 
 # Modify hostname
 #sed -i 's/OpenWrt/360T7/g' package/base-files/files/bin/config_generate
+sed -i "s/hostname='ImmortalWrt'/hostname='360T7'/g" package/base-files/files/bin/config_generate
